@@ -7,13 +7,14 @@ Requirements:
 - Windows 10/11
 - .NET 10 SDK with Windows Desktop support
 
-Extract `source/GeniaPassword_Windows_2_1_1_Source.zip`, open PowerShell in the extracted directory, then run:
+From the repository root:
 
 ```powershell
+cd .\Windows
 .\BUILD_PORTABLE.cmd
 ```
 
-The project uses the Windows desktop target and produces a portable build according to the included publish configuration.
+The project targets Windows x64 and publishes a portable self-contained single-file build.
 
 ## Android
 
@@ -21,30 +22,31 @@ Requirements:
 
 - Android SDK
 - compatible JDK
-- Gradle wrapper included in the source package
+- Gradle wrapper included in the repository
 
-Extract `source/GeniaPasswordMobile_1_0_Source.zip` and run:
+From the repository root:
 
 ```powershell
+cd .\Android
 .\gradlew.bat clean test assembleDebug
 ```
 
 Debug APK:
 
 ```text
-app\build\outputs\apk\debug\app-debug.apk
+Android\app\build\outputs\apk\debug\app-debug.apk
 ```
 
-For a release build, keep the permanent signing keystore **outside** the project directory and never commit it.
+The regular Android source keeps release signing credentials outside the repository. Never commit a permanent signing keystore, its passwords, or `local.properties`.
 
 ## Release hygiene
 
-Before publishing a build:
+Before publishing a binary build:
 
 1. verify that no vault files or backups are present;
 2. verify that no signing keys or local SDK paths are included;
-3. run the available tests/static checks;
+3. run the available tests and static checks;
 4. verify Android still does not request the `INTERNET` permission;
 5. calculate SHA-256 for release binaries;
-6. test opening, editing, saving, locking and reopening a test vault;
+6. test opening, editing, saving, locking and reopening a disposable test vault;
 7. test Windows ↔ Android Vault v2 interchange using a disposable test vault.
