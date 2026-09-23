@@ -28,14 +28,14 @@ Core properties:
 
 > No software can guarantee absolute security. Review the source, keep backups, use a strong master password, and protect the operating system itself.
 
-## Source packages
+## Source code
 
-The repository contains the current regular-edition source packages:
+This repository is for the regular editions of GeniaPassword:
 
-- `source/GeniaPassword_Windows_2_1_1_Source.zip`
-- `source/GeniaPasswordMobile_1_0_Source.zip`
+- Windows source
+- Android source
 
-The source packages intentionally do **not** contain user vaults, signing keys, release keystores, build output, or local SDK configuration.
+Published source must never contain user vaults, signing keys, release keystores, build output, or local SDK configuration.
 
 ## Build
 
@@ -89,6 +89,12 @@ For safety, keep a backup before moving or importing a vault between devices.
 ## Security reports
 
 Please read [SECURITY.md](SECURITY.md) before reporting a vulnerability.
+
+## License
+
+GeniaPassword is released under the **GNU General Public License v3.0 or later (GPL-3.0-or-later)**.
+
+See [LICENSE](LICENSE) for the full license text.
 
 ## Repository
 
