@@ -1,0 +1,44 @@
+# GeniaPassword repository safety rules
+
+# Vaults and backups
+*.pnb
+*.pnb.bak
+vault*
+backups/
+*-backups/
+
+# Secrets / signing
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+signing.properties
+
+# Local Android configuration
+local.properties
+.gradle/
+**/build/
+*.apk
+*.aab
+
+# .NET / Visual Studio
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.nupkg
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Release output
+dist/
+publish/
+artifacts/
