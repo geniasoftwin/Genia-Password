@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GeniaPassword</string>
+    <string name="launcher_name">GeniaPass</string>
+    <string name="action_generate">Сгенерировать</string>
+    <string name="label_password">Пароль</string>
+    <string name="label_title">Название*</string>
+    <string name="label_website">Сайт</string>
+    <string name="label_username">Логин</string>
+    <string name="label_notes">Заметки</string>
+    <string name="label_custom_fields">Дополнительные поля</string>
+    <string name="action_add_field">+ Добавить поле</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="error_empty_title">Введите название записи.</string>
+    <string name="error_empty_field_name">Укажите название дополнительного поля.</string>
+</resources>
