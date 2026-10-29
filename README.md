@@ -11,6 +11,8 @@ The project follows one simple rule: **password data stays on the user's device*
 
 This repository contains the regular desktop and mobile editions. PRO editions are maintained separately.
 
+Latest PRO WorkTest status (Windows PRO 1.2 / Mobile PRO 1.1, 29 October 2026): [PRO test notes](docs/PRO_WORKTEST_2026-10-29.md). These separate PRO sources are not part of the regular edition source trees in this repository.
+
 ## Security model
 
 GeniaPassword is designed to work without cloud services, accounts, telemetry, analytics, advertising SDKs, or background network services.
