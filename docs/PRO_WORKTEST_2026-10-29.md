@@ -1,5 +1,8 @@
 # GeniaPassword PRO WorkTest — 29 October 2026
 
+> **Historical snapshot.** See [SmartMerge 2 WorkTest status — 2 November 2026](PRO_SMARTMERGE2_WORKTEST_2026-11-02.md) for the latest development and test status. The original 29 October source-package names below are retained for history.
+
+
 > **Status: user-tested WorkTest, not a published production release.**
 
 The **PRO** editions are separate from the regular GeniaPassword editions in this repository. Their source archives are maintained separately and have **not** been uploaded to this public repository. This page tracks the latest reported PRO test state without replacing the regular source or inadvertently mixing editions.
