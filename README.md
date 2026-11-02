@@ -11,7 +11,7 @@ The project follows one simple rule: **password data stays on the user's device*
 
 This repository contains the regular desktop and mobile editions. PRO editions are maintained separately.
 
-Latest PRO WorkTest status (Windows PRO 1.2 / Mobile PRO 1.1, 29 October 2026): [PRO test notes](docs/PRO_WORKTEST_2026-10-29.md). These separate PRO sources are not part of the regular edition source trees in this repository.
+Latest PRO development status (Windows PRO 1.2 / Mobile PRO 1.1, SmartMerge 2, **2 November 2026**): [SmartMerge 2 WorkTest notes and current build/test status](docs/PRO_SMARTMERGE2_WORKTEST_2026-11-02.md). The separate PRO source projects are **not** published in the regular edition source trees here; their latest builds are not yet release-validated.
 
 ## Security model
 
